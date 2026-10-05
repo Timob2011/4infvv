@@ -1,0 +1,4 @@
+personen = int(input("hoeveel personen zijn aanwezig?: "))
+snoepjes = int(input("hoeveel snoepjes zijn er?: "))
+vermenigvuldiging = snoepjes // personen
+print("Elke persoon krijgt " + str(vermenigvuldiging) + " snoepjes")
