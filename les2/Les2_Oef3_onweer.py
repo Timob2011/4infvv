@@ -1,6 +1,6 @@
-tijd = float(input("Hoeveel seconde telde je tussen de bliksem en de donder?: "))
+tijd = float(input("Hoeveel seconden telde je tussen de bliksem en de donder?: "))
 
-afstand = round(tijd*0.3 , 2)
+afstand = round(tijd*343/1000 , 2)
 
 if afstand >= 3:
     print(f"Je bent {afstand}km van het onweer verwijderd.")

@@ -1,5 +1,5 @@
 from random import randrange
-computer = randrange(5)+1
+computer = randrange(10)+1
 
 gok = int(input("Waag een gokje! Raad een getal tussen 1 en 5: "))
 
